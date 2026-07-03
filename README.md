@@ -9,8 +9,8 @@ This project integrates OpenCV for real-time face detection with a TensorFlow/Ke
 ### Data & Model
 - **Dataset**: The model was trained on the FER-2013 dataset, leveraging its 35,000 images to learn a diverse range of facial expressions.
   For repository efficiency, the dataset is not included in this repository. To run the training or evaluation scripts, please follow these steps:
-1 Download the dataset from Kaggle.
-2 Extract the contents into a folder named `/data` in the project root directory.
+1. Download the dataset from Kaggle.
+2. Extract the contents into a folder named `/data` in the project root directory.
 - **Architecture**: A custom Convolutional Neural Network (CNN) designed for spatial feature extraction. The model utilizes stacked Conv2D layers to identify hierarchical facial geometries, effectively distinguishing between micro-expressions.
 - **Pipeline**: Built using TensorFlow/Keras, the pipeline encompasses the entire lifecycle: from data normalization and augmentation to weight optimization and final deployment.
 
