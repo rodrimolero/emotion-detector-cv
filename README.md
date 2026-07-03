@@ -20,3 +20,5 @@ cd emotion-detection-cv
 ```
 pip install -r requirements.txt
 ```
+3. Model configuration
+   Ensure your trained model file (`emotion_model.keras`) is placed within the `/models` directory.
