@@ -15,6 +15,11 @@ This project integrates OpenCV for real-time face detection with a TensorFlow/Ke
 - **Computer Vision**: Employs OpenCV for high-performance face detection. The system captures video frames, applies grayscale conversion, and performs real-time pre-processing to ensure compatibility with the CNN input requirements (48x48 pixels).
 - **Inference**: The model executes inference directly on the detected face regions, outputting a probabilistic distribution across the seven emotion classes, rendered visually as a live dashboard.
 
+## Stack
+- **Languages**: Python
+- **Deep Learning**: TensorFlow, Keras
+- **Computer Vision**: OpenCV
+
 ## Key Features
 - **Real-time Processing**: Utilizes optimized Haar Cascade classifiers for efficient face tracking.
 - **Robust Classification**: A robust CNN architecture trained to distinguish between seven categorical emotional states.
