@@ -22,3 +22,11 @@ pip install -r requirements.txt
 ```
 3. Model configuration
    Ensure your trained model file (`emotion_model.keras`) is placed within the `/models` directory.
+
+## Usage
+Run the application using the following command:
+```
+python detect_emotions.py
+```
+- Start: The application will launch a window titled "Emotion Detector" and activate your webcam.
+- Exit: Press the 'q' key at any time to close the application.
