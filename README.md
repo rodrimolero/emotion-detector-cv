@@ -9,3 +9,14 @@ This project integrates OpenCV for real-time face detection with a TensorFlow/Ke
 - **Deep Learning Classification**: A robust CNN architecture trained to distinguish between seven categorical emotional states.
 - **Live Visualization**: Dynamic bounding boxes and confidence level overlays.
 - **Intuitive Controls**: Simple keyboard commands for application management.
+
+## Installation & Setup
+1. Clone the repository
+```
+git clone https://github.com/rodrimolero/emotion-detection-cv.git
+cd emotion-detection-cv
+```
+2. Install dependencies
+```
+pip install -r requirements.txt
+```
